@@ -1,0 +1,323 @@
+body{
+    background-color: rgba(0, 128, 0, 0.699);
+    border-left: 3px;
+    
+    
+}
+#img-nav{
+    width: 60px;
+    height:  auto;
+    border-radius: 50%;
+    
+    
+}
+
+
+.logotipo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.container-fluid{
+    background-color:#00704A;
+}
+#navigation{
+    padding: 0;
+    border-bottom: 3px solid black;
+}
+
+.collapse.navbar-collapse {
+   margin-right: 100px;
+   font-size: 10px;
+}   
+.collapse.navbar-collapse.show.nav-item{
+    margin-right: 0;
+    
+
+
+}
+
+.hot{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    padding: 30px 0 30px 60px;
+    margin: 0px 0 15px 0;
+    background-color: #494949;
+    color: #00704A;
+}
+
+.hotbv{
+    height: 60px;
+    width: 60px;
+    flex-basis: 100px;
+}
+ 
+.nav-item{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  transition: transform 0.3s ease-in-out;
+  transform-origin:  left;
+  
+}
+
+.nav-item:hover{
+    transform: scale(1.15);
+    box-shadow: 5px 5px 20px 2px #252525;
+    left: 10px;
+    
+}
+.navbar-nav{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    
+    
+}
+
+button{
+  border: none;
+  background-color: transparent;
+  transition: font-weight 0.2s ease;
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: italic;
+  
+}
+
+button:hover{
+  background-color: rgb(53, 53, 53);
+  font-weight: bold;
+  border-radius: 7px;
+  opacity: 0.7;
+  
+}
+
+
+.col1{
+    text-align: left;
+    flex-grow: 10;
+}
+.col2{
+    text-align: right;
+   
+}
+svg{
+    height: 50px;
+    width: 50px;
+}
+.container-icon{
+    
+    width: 56px;
+    height: 44px;
+    
+    
+
+}
+
+
+.carrito{
+    width: 56px;
+    height: 44px;
+    background-color: #494949;
+    border-radius: 5px;
+    color: black;  
+}
+.carrito:active{
+    border: 2px solid black;
+}
+
+.d-inline-flex{
+    display: flex;
+    border: none;
+    background-color: transparent;
+}
+.carro{
+    border-color: black;
+    background-color: #00704A;
+    color: #00704A;
+    width: 56px;
+    height: 44px;
+    box-sizing: content-box;
+    
+}
+
+.div-collapse {
+    position: sticky;
+    left: 1400px;
+    display: flex;
+    padding-right: 10px;
+ 
+ }
+.count-products{
+   position: absolute;
+   top: 75%;
+   right: 5px;
+   display: flex;
+   background-color: black;
+   color: white;
+   width: 15px;
+   height: 15px;
+   align-items: center;
+   justify-content: center;
+}
+.cart-products{
+    position: absolute;
+    top: 60px;
+    right: 0;
+    height: 15rem;
+    overflow-y: scroll;
+    z-index: 1;
+    background-color: white;
+    box-shadow: 0 10px 20px rgb(53, 53, 53);
+    border-radius: 15px;
+    
+}
+
+.row-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cart-product{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.info-cart-product{
+    display: flex;
+    justify-content: space-between;
+    flex: 0.8;
+    border-bottom: 1px solid rgb(53, 53, 53);
+    flex-direction: row;  
+    align-items: stretch;
+    
+}
+
+
+.cantidad-producto-carrito{
+  font-weight: 1000;
+  width: 30px;
+  
+ 
+}
+
+.titulo-carrito-producto{
+  font-weight: 400;
+  width: 150px;
+  
+  
+  
+  
+}
+
+.precio-producto-carrito{
+    font-weight: 1000;
+    
+}
+
+
+.icon-close{
+    width: 25px;
+    height: 25px;
+    
+}
+.icon-close:hover{
+    stroke: red;
+    cursor: pointer;
+
+}
+
+.hidden{
+    display: none;
+}
+
+
+.total{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    gap: 20px;
+}
+.hidden-cart{
+    display: none;
+}
+
+.container-products{
+    padding-top: 110px;
+    margin-bottom: 100px;
+    
+}
+.text-center{
+   padding: 0 0 10px 0;
+}
+
+
+.align-items-center{
+    border-bottom: 1px dotted rgb(53, 53, 53);
+}
+.coffee-type{
+    display: flex;
+    flex-direction: row;
+    border-bottom: none;
+    align-items: flex-end;
+    align-content: end;
+    border-radius: 5px;
+    
+}
+.coffee-type-span{
+    border-bottom: 5px solid rgb(0, 88, 0);
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+}
+.product-name{
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: italic;
+}
+.btn.btn-primary{
+ padding: 0%; 
+ border: solid 2px black; 
+ border-radius: 8px;
+ transform: 0.3s ease-in-out;
+ transform-origin: top;
+
+    
+}
+.btn.btn-primary:hover{
+    transform: scale(1.11);
+    border-color: black;
+    box-shadow: 4px 4px black;
+    opacity: 100%;
+}
+
+button.navbar-toggler{
+    background-color: #494949;
+    color: black;
+    border: 2px solid black;
+    border-radius: 8px;
+    transform: 0.3s ease-in-out;
+    transform-origin: right;
+}
+button.navbar-toggler:hover{
+    transform: scale(1.11);
+    border-color: black;
+    box-shadow: 4px 4px  black;
+    opacity: 100%;
+}
+span.navbar-toggler-icon{
+    background-color: transparent;
+    stroke: black;
+}
+
+
