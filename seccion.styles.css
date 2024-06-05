@@ -49,32 +49,37 @@ figure{
     text-decoration: none;
     color: black;
     font-weight: 700;
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: italic;
 }
-.accordion-header:hover{
-    transform: scale(1.20);
-    transform-origin: left;
-    transition: ease-in-out;
-    
-}
+
 .accordion-button{
     font-weight: 1000;
     color: black;
 }
+
 .accordion-button:hover{
     opacity: 100%;
     background-color: #494949;
-  
 }
+  
+
+
+
+
 .accordion-button::after:hover{
     background-color: #494949;
     border-color: black;
     color: black;
 }
+
 .accordion:active{
     background-color: black;
 }
 .accordion{
-    margin-bottom: 60px;
+    margin-bottom: 80px;
+    margin-top: 80px;
 }
   .accordion-flush{
     background-color: #00704A;
@@ -82,8 +87,15 @@ figure{
 .accordion-button:active{
     background-color: #494949;
 }
+
+
 .accordion-button:not(.collapsed){
     background-color: #494949;
     color: #00704A;
     box-shadow: none;
 }
+
+li{
+    padding: 15px 0 15px 0;
+}
+
